@@ -96,11 +96,3 @@
  * make
  * make install
 
-## Install from source:
- * ./configure
- * make
- * make install
- ## Install from source:
- * ./configure
- * make
- * make install
