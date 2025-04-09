@@ -1,0 +1,30 @@
+/* @theme A4 */
+
+@import 'default';
+
+section {
+  /* A4 document size */
+  justify-content: flex-start;
+  width: 210mm;
+  height: 297mm;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 20px;
+}
+
+li {
+  font-size: 20px;
+}
