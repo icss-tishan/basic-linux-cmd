@@ -4,12 +4,7 @@
 section {
   width: 210mm;
   height: 297mm;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-
+  align-content: start;
   padding: 40px;
   box-sizing: border-box;
   line-height: 1.4;
