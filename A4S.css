@@ -1,5 +1,4 @@
 /* @theme A4S */
-
 @import 'default';
 
 section {
@@ -11,9 +10,14 @@ section {
   justify-content: flex-start;
   align-items: flex-start;
 
-  padding: 40px; /* adjust padding as needed */
+  padding: 40px;
   box-sizing: border-box;
   line-height: 1.4;
+}
+
+/* Kill default theme's vertical centering */
+section::after {
+  content: none !important;
 }
 
 /* Optional typography scaling */
