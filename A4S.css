@@ -1,14 +1,19 @@
 /* @theme A4S */
-
 @import 'default';
 
 section {
-  /* A4 document size */
+  /* Ensure section uses flex layout */
+  display: flex;
+  flex-direction: column;
   justify-content: flex-start;
+
+  /* A4 document size */
   width: 210mm;
   height: 297mm;
+  padding-top: 40px; /* Optional: add some top padding */
 }
 
+/* Font size tweaks */
 h2 {
   font-size: 30px;
 }
@@ -17,14 +22,6 @@ h3 {
   font-size: 25px;
 }
 
-h4 {
-  font-size: 20px;
-}
-
-p {
-  font-size: 20px;
-}
-
-li {
+h4, p, li {
   font-size: 20px;
 }
